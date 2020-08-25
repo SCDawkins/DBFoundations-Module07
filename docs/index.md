@@ -1,7 +1,6 @@
 ## Shawn Dawkins
-### 08-22-2020
-### Foundations of Database: Module 07 Functions
-### https://github.com/SCDawkins/DBFoundations-Module07
+Foundations of Database: Module 07 Functions
+https://github.com/SCDawkins/DBFoundations-Module07
 
 
 ***1.	Explain when you would use a SQL UDF:_***
