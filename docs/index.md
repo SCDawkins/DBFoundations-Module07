@@ -5,6 +5,7 @@
 
 
 _1.	Explain when you would use a SQL UDF:_
+
 User Defined Functions: SQL Server allows us to create our functions called as user defined functions in SQL Server. For example, if we want to perform some complex calculations, then we can place them in a separate function, and store it in the database. Whenever we need the calculation, we can call it. There are three types of SQL user defined functions: Scalar, Inline & Multi-statement.
 
 _2. Explain are the differences between Scalar, Inline, and Multi-Statement Functions._
