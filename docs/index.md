@@ -1,34 +1,24 @@
-## Welcome to GitHub Pages
+## Shawn Dawkins
+## 08-22-2020
+## Foundations of Database 
+### https://github.com/SCDawkins/DBFoundations-Module07
 
-You can use the [editor on GitHub](https://github.com/SCDawkins/DBFoundations-Module07/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1.	Explain when you would use a SQL UDF.
+User Defined Functions: SQL Server allows us to create our functions called as user defined functions in SQL Server. For example, if we want to perform some complex calculations, then we can place them in a separate function, and store it in the database. Whenever we need the calculation, we can call it. There are three types of SQL user defined functions: Scalar, Inline & Multi-statement.
 
-### Markdown
+2.	Explain are the differences between Scalar, Inline, and Multi-Statement Functions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Scalar Function: It is a function that returns a single value. Generally, we must define the function body between BEGIN … END block, but for inline scalar function, you can omit them. We can use any SQL data type as the return type except text, image, next, cursor, and timestamp.
 
-```markdown
-Syntax highlighted code block
+Table Valued Functions: It is a user defined function in SQL Server that returns a table.
+Inline Table valued Functions: This function returns a table data type based on a single SELECT Statement
 
-# Header 1
-## Header 2
-### Header 3
+A multi-statement table-valued UDF returns a row-set populated by two or more T-SQL statements from within the UDF.  The internal rows-sets are concatenated into a table variable for output from the UDF. 
 
-- Bulleted
-- List
+We can use UDF statements that can pull the same information from a database without rewriting the sane code every time.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SCDawkins/DBFoundations-Module07/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
